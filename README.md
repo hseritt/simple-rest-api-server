@@ -13,7 +13,7 @@ Install Python 3.8.1 using pyenv (see the Pyenv section on this page for notes o
 `$ pyenv install 3.8.1              # Install Python 3.8.1` \
 `$ pyenv virtualenv rest-api-server # Set up a virtual environment called rest-api-server` \
 `$ pyenv local rest-api-server      # Designates this space as virtual environment container` \
-`$ pip install -r requirements.txt  # Installs necessary packages` \
+`$ pip install -r requirements.txt  # Installs necessary packages` 
 
 ## Run rest-api-server 
 
