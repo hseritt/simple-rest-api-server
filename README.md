@@ -1,6 +1,6 @@
 # Simple Rest API Server
 
-This is a very simple Rest API server written using Djago and the Django Rest Framework.
+This is a very simple Rest API server written using Django and the Django Rest Framework.
 
 It has a very simple app already included called "events". It can be used with other frontend JS frameworks like Angular or React.
 
