@@ -20,3 +20,7 @@ Simple:
 
 `python manage.py runserver`
 
+## View Rest API Response
+
+http://localhost:8000/api/events/
+
