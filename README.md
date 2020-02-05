@@ -17,7 +17,7 @@ Install Python 3.8.1 using pyenv (see the Pyenv section on this page for notes o
 
 ## Run rest-api-server 
 
-`$ python manage.py runserver` \
+`$ python manage.py runserver` 
 
 ## View Rest API Response
 
