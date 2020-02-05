@@ -18,6 +18,7 @@ from django.contrib.auth.models import User
 from django.urls import path, include
 from rest_framework import routers, serializers, viewsets
 from example.serializers import EventViewSet
+from todo.serializers import TodoViewSet
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
@@ -34,6 +35,7 @@ class UserViewSet(viewsets.ModelViewSet):
 router = routers.DefaultRouter()
 router.register(r'users', UserViewSet)
 router.register(r'events', EventViewSet)
+router.register(r'todos', TodoViewSet)
 
 
 urlpatterns = [
