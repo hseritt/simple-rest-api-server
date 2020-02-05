@@ -2,7 +2,7 @@
 
 This is a very simple Rest API server written using Django and the Django Rest Framework.
 
-It has a very simple app already included called "events". It can be used with frontend JS frameworks like Angular or React. In fact, it pairs very well with my own [angular-tour-of-events](https://github.com/hseritt/angular-tour-of-events).
+It has a very simple app already included called "events". It can be used with frontend JS frameworks like Angular or React. In fact, it pairs very well with my own [angular-tour-of-events](https://github.com/hseritt/angular-tour-of-events/tree/GET-Example-DjangoRF).
 
 ## Set Up
 
