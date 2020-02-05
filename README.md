@@ -10,13 +10,15 @@ Clone project into a folder.
 
 Install Python 3.8.1 using pyenv (see the Pyenv section on this page for notes on how to install pyenv: https://dev.prodigi.us/post/python-package-and-version-management/).
 
-Go into the folder and set up a virtualenv with Pyenv.
+`$ pyenv install 3.8.1 # Install Python 3.8.1`
+`$ pyenv virtualenv rest-api-server # Set up a virtual environment called rest-api-server`
+`$ pyenv local rest-api-server # Designates this space as virtual environment container`
+`$ pip install -r requirements.txt # Installs necessary packages`
 
-Install the required packages using `pip install -r requirements.txt`.
+## Run rest-api-server 
 
-## Run 
+`$ python manage.py runserver`
 
-Simple:
+## View Rest API Response
 
-`python manage.py runserver`
-
+In a browser go to http://localhost:8000/api/events
