@@ -6,6 +6,7 @@ class EventSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Event
         fields = [
+            'id',
             'title',
             'description',
             'created',
@@ -17,3 +18,7 @@ class EventSerializer(serializers.HyperlinkedModelSerializer):
 class EventViewSet(viewsets.ModelViewSet):
     queryset = Event.objects.all()
     serializer_class = EventSerializer
+    http_method_names = [
+        u'get', u'post', u'put', u'patch', u'delete',
+        u'head', u'options', u'trace',
+    ]
