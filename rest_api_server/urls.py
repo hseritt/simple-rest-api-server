@@ -24,7 +24,7 @@ from todo.serializers import TodoViewSet
 class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = User
-        fields = ['url', 'username', 'email', 'is_staff', ]
+        fields = ['id', 'url', 'username', 'email', 'is_staff', ]
 
 
 class UserViewSet(viewsets.ModelViewSet):
