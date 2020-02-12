@@ -1,8 +1,12 @@
 asgiref==3.2.3
-Django==3.0.2
+Django==3.0.3
 django-cors-headers==3.2.1
 django-filter==2.2.0
 djangorestframework==3.11.0
-Markdown==3.1.1
+Markdown==3.2
+packaging==20.1
+pip-review==1.0
+pyparsing==2.4.6
 pytz==2019.3
+six==1.14.0
 sqlparse==0.3.0
